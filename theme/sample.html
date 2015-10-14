@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!-- レスポンシブ対応 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrapの使い方</title>
+
+    <!-- bootstrap.cssの読み込み -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/sample.css">
+  </head>
+  <body>
+    <!-- Bootstrapのグリッド・システムの使い方 -->
+
+    <!-- 
+      まずはcontainerをつくる
+      そのためによく使われるタグは、ブロック要素のdivタグです
+     -->
+    <div class="container">
+      <!-- containerの中に行を用意する -->
+      <div class="row red">
+        <div class="col-md-3 col-sm-2 green">6列使って左詰めで配置</div>
+        <div class="col-md-6 col-sm-2 orange">6列使って左詰めで配置</div>
+        <div class="col-md-3 col-sm-8 blue">6列使って左詰めで配置</div>
+      </div>
+
+      <div class="row green">
+        <div class="col-md-8 col-md-offset-2 col-sm-4 col-sm-offset-4 orange">8列使って真ん中に置きたい</div>
+      </div>
+
+      <div class="row blue">
+        <div class="col-md-8 red">
+          <div class="col-md-4 orange">ほげ</div>
+          <div class="col-md-8 green">ふが</div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+
+
+
+
